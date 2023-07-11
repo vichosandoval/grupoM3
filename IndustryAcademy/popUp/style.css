@@ -1,0 +1,52 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: top center;
+    transform: scale(0);
+}
+
+.wrapper.opened {
+    transform: scale(1);
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: #10062E;
+    border: 1px solid #10062E ;
+    border-radius: 10px;
+    color: #fff;
+    width: 45rem;
+    height: 15rem;
+    padding: 2vh;
+    
+}
+.card-content{
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.line{
+    border-left: 2px solid #fff;
+}
+.card-image{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.close{
+    font-size: 5vh;
+    align-self: flex-start;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+.qrCode{
+    height: 200px;
+    width: 200px;
+}
+
